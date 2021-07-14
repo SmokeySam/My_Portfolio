@@ -93,6 +93,7 @@ header ul a {
   z-index: -1;
 }
 
+/*Projects*/
 .project-subtitle {
   text-transform: uppercase;
   font-weight: bold;
@@ -186,6 +187,10 @@ header ul a {
         grid-template-columns: repeat();
     grid-gap: 1em;
   }
+  .contact-links {
+    display: inline-block;
+    padding-top: 100px;
+  }
 }
 
 @media only screen and (min-width: 1050px) {
@@ -250,6 +255,10 @@ header ul a {
     margin-top: 15%;
     width: 100%;
   }
+  .contact-links {
+    display: inline-block;
+    padding-top: 100px;
+  }
 }
 
 @media only screen and (min-width: 1250px) {
@@ -265,6 +274,10 @@ header ul a {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
+  .contact-links {
+    display: inline-block;
+    padding-top: 10px;
+  }
 }
 
 @media only screen and (min-width: 1550px) {
@@ -279,6 +292,10 @@ header ul a {
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
+  }
+  .contact-links {
+    display: inline-block;
+    padding-top: 70px;
   }
 }
 /*# sourceMappingURL=main.css.map */
