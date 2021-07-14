@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
+/*Body*/
 body {
     height: 100vh;
     margin: 0;
@@ -20,6 +21,12 @@ img{
     width: 100%;
 }
 
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+/*Navbar*/
 .nav-container {
     background: #0000A1;
 
@@ -34,7 +41,7 @@ header {
     padding: 2em;
 
     .logo {
-        color: #39BAE8;
+        color: #B9EDF8;
         font-weight: bold;
     }
 
@@ -48,10 +55,12 @@ header {
     }
 }
 
+/*Hiding social links and hero image for mobile and tablet views*/
 .social-header, .hero-design {
     display: none;
 }
 
+/*Hero Introduction & Title*/
 .hero {
     background: #2626AF;
     color: #B9EDF8;
@@ -60,16 +69,13 @@ header {
     padding: 4em;
 }
 
-section {
-    padding: 4em 2em;
-    text-align: center;
-}
-
-.featured {
+/*Projects*/
+.projects {
     position: relative;
 }
 
-.featured::before {
+/*Circle*/
+.circle::before {
     content: "";
     position: absolute;
     width: 200px;
@@ -81,32 +87,37 @@ section {
     z-index: -1;
 }
 
-.subtitle {
+.project-subtitle {
     text-transform: uppercase;
     font-weight: bold;
-    color: #0000A1;
+    color: black;
     letter-spacing: .2em;
     font-size: .85em;
 }
 
-.featured-title {
-    color: black;
+.project-title {
+    color: #0000A1;
     font-weight: bold;
     font-size: 1.3em;
     margin-top: -.4em;
     display: block;
 }
 
-.featured-desc {
-    color: #0000A1;
+.project-desc {
+    color: black;
     margin-bottom: 3em;
     font-size: .85em;
     line-height: 1.8em;
     font-weight: 500;
 }
 
+.projects img {
+    padding-bottom: 70px;
+}
+
+/*Skills*/
 .skills {
-    background: #1F6ED4;
+    background: #2626AF;
 }
 
 .skills-container ul li {
@@ -127,31 +138,28 @@ section {
     font-weight: bold;
 }
 
-.featured-desc {
-    margin-bottom: 2em;
+/*Contact*/
+.contact-links {
+    padding-bottom: 50px;
 }
 
-.portfolio {
-    background: #f7f7f7;
+.contact-links img {
+    height: 100px;   
 }
 
-.portfolio-container a img {
-    border-radius: 1em;
-    margin-bottom: 2em;
-}
-
+/*Media Queries*/
 @media only screen and (min-width: 800px) {
 
-    .featured, .portfolio {
+    .projects {
         text-align: left;
     }
 
-    .featured, .portfolio-container {
+    .projects {
         display: grid;
         grid-template-columns: 40% auto;
     }
 
-    .left, .portfolio-left {
+    .left {
         display: grid;
         place-content: center;
     }
@@ -169,16 +177,8 @@ section {
 
     .skills-container ul {
         display: grid;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat();
         grid-gap: 1em;
-    }
-
-    .portfolio {
-        padding-top: 7em;
-    }
-
-    .portfolio-container img {
-        margin-left: 2em;
     }
 
 }
@@ -249,11 +249,6 @@ section {
         margin-left: -50%;
         margin-top: 15%;
         width: 100%;
-    }
-
-    .portfolio img {
-       float: right;
-       max-width: 500px; 
     }
 
 }

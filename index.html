@@ -9,31 +9,29 @@
 </head>
 
 <body>
-    
-    
+
     <!--Navbar-->
     <div class="nav-container">
-        <!--Corner Heading-->
+        <!--Corner Logo-->
         <header>
             <a href="index.html" class="logo">Ross Phelan</a>
             <!--Navigation Links-->
             <nav>
                 <ul>
-                    <li><a href="#">My work</a></li>
-                    <li><a href="#">My skills</a></li>
-                    <li><a href="#">Contact me</a></li>
+                    <li><a href="#projects">My Work</a></li>
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
         <!--Social Links-->
         <div class="social-header">
             <ul>
-                <li><a href="#"><img src="images/github.png" alt="Github"></a></li>
-                <li><a href="#"><img src="images/linkedln.png" alt="Linkedln"></a></li>
-                <li><a href="#"><img src="images/gmail.png" alt="Gmail"></a></li>
+                <li><a href="https://www.linkedin.com/in/ross-phelan-707a511b5/" target="_blank"><img src="images/icon-linkedln.png" alt="Linkedln"></a></li>
+                <li><a href="https://github.com/SmokeySam" target="_blank"><img src="images/icon-github.png" alt="Github"></a></li>
+                <li><a href="https://dribbble.com/SmokeySam" target="_blank"><img src="images/icon-dribbble.png" alt="Dribbble"></a></li>
             </ul>
         </div>
-
     </div>
 
 
@@ -41,40 +39,66 @@
     <div class="hero">
         <!--Header And Introduction-->
         <div class="content">
-            <h1>I build + create</h1>
-                <div class="meet">
-                    <p>Junior Fullstack Developer & UX UI Designer</p>
-                </div>
+            <h1>I Build + Create</h1>
+                <p>Junior Fullstack Developer & UX UI Designer</p>
         </div>
         <!--Image-->
         <div class="hero-design">
-            <img src="images/hero.png" alt="hero_image">
+            <img src="images/hero.png" alt="Hero Image">
         </div>
-
     </div>
 
 
-    <!--Feautured Project-->
-    <section class="featured">
+    <!--Projects-->
+    <!--Just Cater-->
+    <a name="projects"></a>
+    <section class="projects circle">
         <div class="left">
             <div class="inner transition2">
-                <p class="subtitle">Featured Project</p>
-                <a href="#" class="featured-title">Recipe Cluster</a>
-                <p class="featured-desc">Save and edit your favourite recipes.
-                    Browse through the communities recipes also!</p>                
+                <p class="project-subtitle">Catering Service</p>
+                <a href="#" class="project-title">Just Cater</a>
+                <p class="project-desc">Just Cater is a food catering service located in Waterford.<br>
+                   Build with HTML, CSS, Bootstrap and Javascript</p>                
             </div>
         </div>
         <!--Project Image-->
-        <img class="right transition2" src="images/recipe-cluster.png" alt="Featured Project">
+        <a href=""><img class="right transition2" src="images/recipe-cluster.png" alt="Featured Project"></a>
+
+        <!--Recipe Cluster-->
+        <div class="left">
+            <div class="inner transition2">
+                <p class="project-subtitle">Recipe Application</p>
+                <a href="#" class="project-title">Recipe Cluster</a>
+                <p class="project-desc">Save and edit your favourite recipes.
+                   Browse through the communities recipes also!<br>
+                   Built using HTML, CSS, Materialize, Javascript, jQuery, Python, Flask and MongoDB</p>                
+            </div>
+        </div>
+        <!--Project Image-->
+        <a href=""><img class="right transition2" src="images/recipe-cluster.png" alt="Featured Project"></a>
+
+        <!--Django Application-->
+        <div class="left">
+            <div class="inner transition2">
+                <p class="project-subtitle">Django Application</p>
+                <a href="#" class="project-title">Django Project</a>
+                <p class="project-desc">Save and edit your favourite recipes.
+                   Browse through the communities recipes also!<br>
+                   Constructed with HTML, CSS, Sass, Javascript, Python, Djamgo and MySQL</p>                
+            </div>
+        </div>
+        <!--Project Image-->
+        <a href=""><img class="right transition2" src="images/recipe-cluster.png" alt="Featured Project"></a>
     </section>
 
 
     <!--Skills-->
+    <a name="skills"></a>
     <section class="skills">
         <div class="skills-container">
             <ul>
                 <li class="transition2">
-                    <div class="icon-container one">
+                    <div class="icon-container">
                         <img src="images/icon-frontend.svg" alt="Frontend">
                     </div>
                     <p class="skill-title">Frontend Development</p>
@@ -86,7 +110,7 @@
                         JQUERY</p>
                 </li>
                 <li class="transition2">
-                    <div class="icon-container two">
+                    <div class="icon-container">
                         <img src="images/icon-backend.svg" alt="Backend">
                     </div>
                     <p class="skill-title">Backend Development</p>
@@ -98,7 +122,7 @@
                         MYSQL</p>
                 </li>
                 <li class="transition2">
-                    <div class="icon-container three">
+                    <div class="icon-container">
                         <img src="images/icon-ux-ui-design.svg" alt="UX UI Desgin">
                     </div>
                     <p class="skill-title">UX UI Design</p>
@@ -111,51 +135,24 @@
         </div>
     </section>
 
-    <section class="portfolio">
-
-        <div class="portfolio-container transition3">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Catering Service</p>
-                    <p class="feautured-title">Just Cater</p>
-                    <p class="featured-desc">Just Cater is a food catering service located in Waterford.<br>
-                       This website was build using HTML/CSS, Bootstrap and Javascript.</p>
-                </div>
-            </div>
-            <a href="#"><img src="images/just-cater.png" alt="Just Cater"></a>
+    <!--Contact-->
+    <a name="contact"></a>
+    <section class="contact">
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/ross-phelan-707a511b5/" target="_blank"><img src="images/icon-linkedln.svg" alt="Linkedln">Linkedln</a>
         </div>
-
-        <div class="portfolio-container transition3">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Django App</p>
-                    <p class="feautured-title">Django Project</p>
-                    <p class="featured-desc">This application was build using HTML/CSS, Sass and Javacript.
-                        In the back end I used Python, Django and MySQL.
-                    </p>
-                </div>
-            </div>
-            <a href="#"><img src="images/django.png" alt="Django"></a>
+        <div class="contact-links">
+            <a href="https://github.com/SmokeySam" target="_blank"><img src="images/icon-github.svg" alt="GitHub">GitHub</a>
         </div>
-
-        <div class="portfolio-container transition3">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Recipe App</p>
-                    <p class="feautured-title">Recipe Cluster</p>
-                    <p class="featured-desc">Save and edit your favourite recipes.
-                        Browse through the communities recipes also!<br>
-                        I used HTML/CSS, Materialize and Javascript.
-                        For the backend of my project I used Python, Flask and MongoDB.</p>
-                </div>
-            </div>
-            <a href="#"><img src="images/recipe-cluster.png" alt="Recipe Cluster"></a>
+        <div class="contact-links">
+            <a href="https://dribbble.com/SmokeySam" target="_blank"><img src="images/icon-dribbble.svg" alt="Dribbble">Dribbble</a>
         </div>
-
+        <div class="contact-links">
+            <a href="https://twitter.com/TheAverageDough" target="_blank"><img src="images/icon-twitter.svg" alt="Twitter">Twitter</a>
+        </div>
+        <div class="contact-links">
+            <a href="https://www.instagram.com/_russanthony_/" target="_blank"><img src="images/icon-instagram.svg" alt="Instagram">Instagram</a>
+        </div>
     </section>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js" integrity="sha512-jNJOCd1PIjJoUa1XTDKaPdBLNUe4OJTrltKG+70O5ghYZ943nTRGIzjObwC2JtSm1fG7T06GbUApR2eirIU/jA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 </body>
 </html>
