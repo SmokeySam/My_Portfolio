@@ -3,7 +3,7 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 ul {
@@ -27,11 +27,11 @@ section {
 
 /*Navbar*/
 .nav-container {
-  background: #0000A1;
+  background: #0000a1;
 }
 
 .nav-container a {
-  color: #B9EDF8;
+  color: #b9edf8;
 }
 
 header {
@@ -45,7 +45,7 @@ header {
 }
 
 header .logo {
-  color: #B9EDF8;
+  color: #b9edf8;
   font-weight: bold;
 }
 
@@ -61,14 +61,15 @@ header ul a {
 }
 
 /*Hiding social links and hero image for mobile and tablet views*/
-.social-header, .hero-design {
+.social-header,
+.hero-design {
   display: none;
 }
 
 /*Hero Introduction & Title*/
 .hero {
-  background: #2626AF;
-  color: #B9EDF8;
+  background: #2626af;
+  color: #b9edf8;
   display: -ms-grid;
   display: grid;
   text-align: center;
@@ -80,40 +81,27 @@ header ul a {
   position: relative;
 }
 
-/*Circle*/
-.circle::before {
-  content: "";
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: #B9EDF8;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
 /*Projects*/
 .project-subtitle {
   text-transform: uppercase;
   font-weight: bold;
   color: black;
-  letter-spacing: .2em;
-  font-size: .85em;
+  letter-spacing: 0.2em;
+  font-size: 0.85em;
 }
 
 .project-title {
-  color: #0000A1;
+  color: #0000a1;
   font-weight: bold;
   font-size: 1.3em;
-  margin-top: -.4em;
+  margin-top: -0.4em;
   display: block;
 }
 
 .project-desc {
   color: black;
   margin-bottom: 3em;
-  font-size: .85em;
+  font-size: 0.85em;
   line-height: 1.8em;
   font-weight: 500;
 }
@@ -124,7 +112,7 @@ header ul a {
 
 /*Skills*/
 .skills {
-  background: #2626AF;
+  background: #2626af;
 }
 
 .skills-container ul li {
@@ -205,7 +193,7 @@ header ul a {
     background: unset;
   }
   .nav-container header {
-    background: #0000A1;
+    background: #0000a1;
   }
   header {
     padding: 2em 2em 2em 4em;
@@ -241,7 +229,7 @@ header ul a {
     padding: 0;
   }
   .hero .content {
-    background: #2626AF;
+    background: #2626af;
     padding: 6em 8em 6em 4em;
     text-align: left;
   }
