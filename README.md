@@ -16,7 +16,7 @@ This is my portfolio page I built. Here I can display the porjects I build at my
 
 - Figma
 
-# UX UI :
+# UX UI
 
 ## Colors :
 
@@ -36,9 +36,11 @@ This is my portfolio page I built. Here I can display the porjects I build at my
 
 ## Mockups :
 
-- I created my mockups in Figma. I designed for web, mobile and tablet. Some of the designs may slighty differ from the finished proiject.
+- I created my mockups in Figma. I designed for web, mobile and tablet. Some of the designs may slighty differ from the finished project.
 
-# Layout & Features :
+![alt text](https://www.figma.com/file/UWchvUjjtsRTm2xj2oQ2Tk/My-Website?node-id=181%3A7)
+
+# Layout & Features
 
 - The navbar has clickable links to parts of the page including : My work, My skills and Contact me. It also has links to three of my social accounts : Linkedln, Github and Dribbble.
 
@@ -50,11 +52,13 @@ This is my portfolio page I built. Here I can display the porjects I build at my
 
 * At the end of the webpage are my social accounts : Linkedln, GitHub, Dribbble. Some of which dont show on mobile or tablet view in the navbar.
 
-# Testing :
+# Testing
 
-- I tested my project by adding media queries for different viewing devices. All links have been tested to ensure they are directed toi the right places.
+- I tested my project by adding media queries for different viewing devices.
 
-# Credits :
+- All links have been tested to ensure they are directed to the right places.
+
+# Credits
 
 I used the following references for my project.
 
