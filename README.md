@@ -38,7 +38,9 @@ This is my portfolio page I built. Here I can display the porjects I build at my
 
 - I created my mockups in Figma. I designed for web, mobile and tablet. Some of the designs may slighty differ from the finished project.
 
-![alt text](https://www.figma.com/file/UWchvUjjtsRTm2xj2oQ2Tk/My-Website?node-id=181%3A7)
+![Mockup](images/desktop-mockup.png)
+![Mockup](images/mobile-mockup.png)
+![Mockup](images/tablet-mockup.png)
 
 # Layout & Features
 
