@@ -36,11 +36,16 @@ This is my portfolio page I built. Here I can display the porjects I build at my
 
 ## Mockups :
 
-- I created my mockups in Figma. I designed for web, mobile and tablet. Some of the designs may slighty differ from the finished project.
+- I created my mockups in Figma. I designed for desktop, mobile and tablet. Some of the designs may slighty differ from the finished project.
 
-![Mockup](images/desktop-mockup.png)
-![Mockup](images/mobile-mockup.png)
-![Mockup](images/tablet-mockup.png)
+- Desktop Mockup.
+  ![Desktop mockup](images/desktop-mockup.png)
+
+- Mobile Mockup.
+  ![Mobile mockup](images/mobile-mockup.png)
+
+- Tablet Mockup.
+  ![Tablet mockup](images/tablet-mockup.png)
 
 # Layout & Features
 
