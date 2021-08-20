@@ -1,71 +1,63 @@
-# My Portfolio
+# My Website
 
-This is my portfolio page I built. Here I can display the projects I build at my time at The Code Institute along with other projects I have added.
+## Project Overview
 
-# Technologies
+This is my personal website. I made it to show my projects.
 
-## Languages :
+## UX
 
-- HTML/CSS
+### Strategy
 
-## Frameworks :
+#### Site Owner Goals
 
-- Sass
+- To show my projects I have built.
 
-## Design :
+- For potential clients and developers to contact me.
 
-- Figma
+#### User Goals
 
-# UX UI
+- To see the projects built.
 
-## Colours :
+- To connect with "me" the developer.
 
-- I choose to use blue as the primary and secondary colours within my project based upon personal preference of blue being my favourite colour. My colours of my text are black and white, with blue been used for clickable links and icons.
+#### User Stories
 
-## Fonts :
+- As a client, I would like to see the work the developer is capable of and the projects they have created.
 
-- I used the front "Poppins" for the project.
+- As a recruiter, I would like to see the expierence of the developer and their code.
 
-## Icons :
+- As a developer, I would like to see this other developers work.
 
-- I added my social accounts and used icons to link the accounts. Icons are also used for my skill set section to represent the area of topic.
+### Scope
 
-## Designs :
+#### Features
 
-- In Figma, I created a random abstract image for my page.
+### Structure
 
-## Mockups :
+### Skeleton
 
-- I created my mockups in Figma. I designed for desktop, mobile and tablet. Some designs may slightly differ from the finished project.
+### Surface
 
-![Mockup](images/mockups.png)
+#### Colours
 
-# Layout & Features
+#### Fonts
 
-- The navbar has clickable links to parts of the page including : My work, My skills and Contact me. It also has links to three of my social accounts : LinkedIn, GitHub and Dribbble.
+#### Icons
 
-- Underneath the navbar is my intro and title. Beside this is an image I made.
+#### Images
 
-- The project section has a heading what the application, is followed by the name of the project. Beneath is a description. Alongside is an image of the project, which is also clickable to be directed to the project.
+#### Wireframes
 
-- Within my skill section it is broken into 3 rows : Frontend, Backend and Other. Each row has an icon followed by the heading of the skill and the technologies used beneath.
+## Technolgies Used
 
-* At the end of the webpage are my social accounts : LinkedIn, GitHub, Dribbble. Some of which don't show on mobile or tablet view in the navbar.
+### Languages
 
-# Testing
+### Frameworks/Librarays/Tools
 
-- I tested my project by adding media queries for different viewing devices.
+## Testing
 
-- All links have been tested to ensure they are directed to the right places.
+## Running Locally
 
-# Credits
+## Deployment
 
-I used the following references for my project.
-
-- [YouTube](https://www.youtube.com/watch?v=9iUJJHEIpls) I watched a video of Gary Simons making a portfolio and also teaching more about mockups. This video taught me a lot about UX UI. I have included some of his concepts in my design.
-
-- [Stack Overflow](https://stackoverflow.com/) Researched various topics and threads I needed advice on.
-
-- [ColorDrop](https://colordrop.io/popular/) I got my colour template from here.
-
-- [Google Fonts](https://fonts.google.com/) Where I got my font.
+## Credits
