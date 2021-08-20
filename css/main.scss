@@ -45,6 +45,10 @@ header {
     font-weight: bold;
   }
 
+  nav {
+    float: right;
+  }
+
   ul {
     display: flex;
 
@@ -55,8 +59,7 @@ header {
   }
 }
 
-/*Hiding social links and hero image for mobile and tablet views*/
-.social-header,
+/*Hiding hero image from mobile and tablet views*/
 .hero-design {
   display: none;
 }
@@ -70,12 +73,16 @@ header {
   padding: 4em;
 }
 
-/*Projects*/
-.projects {
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+/*Portfolio*/
+.portfolio {
   position: relative;
 }
 
-/*Projects*/
 .project-subtitle {
   text-transform: uppercase;
   font-weight: bold;
@@ -100,49 +107,19 @@ header {
   font-weight: 500;
 }
 
-.projects img {
-  padding-bottom: 70px;
-}
-
-/*Skills*/
-.skills {
-  background: #2626af;
-}
-
-.skills-container ul li {
-  background: white;
-  padding: 2em;
+.portfolio-container a img {
   border-radius: 1em;
-  margin-bottom: 1em;
-
-  .icon-container {
-    height: 100px;
-    display: grid;
-    place-content: center;
-    margin: 0 auto;
-  }
-}
-
-.skill-title {
-  font-weight: bold;
-}
-
-/*Contact*/
-.contact-links {
-  padding-bottom: 50px;
-}
-
-.contact-links img {
-  height: 100px;
+  margin-bottom: 2em;
 }
 
 /*Media Queries*/
 @media only screen and (min-width: 800px) {
-  .projects {
+  .portfolio {
     text-align: left;
+    padding-top: 7em;
   }
 
-  .projects {
+  .portfolio-container {
     display: grid;
     grid-template-columns: 40% auto;
   }
@@ -157,21 +134,8 @@ header {
     margin-top: 1em;
   }
 
-  .skills {
-    margin-top: -5em;
-    margin-bottom: -7em;
-    padding-top: 7em;
-  }
-
-  .skills-container ul {
-    display: grid;
-    grid-template-columns: repeat();
-    grid-gap: 1em;
-  }
-
-  .contact-links {
-    display: inline-block;
-    padding-top: 100px;
+  .portfolio-container img {
+    margin-left: 2em;
   }
 }
 
@@ -184,26 +148,19 @@ header {
     display: grid;
     grid-template-columns: 66% auto;
     background: unset;
+  }
 
-    header {
-      background: #0000a1;
-    }
+  header {
+    background: #0000a1;
   }
 
   header {
     padding: 2em 2em 2em 4em;
   }
 
-  .social-header {
-    padding: 2em 4em 2em 0;
-  }
-
   section {
     padding: 4em;
   }
-
-  .social-header {
-    display: block;
 
     ul {
       display: flex;
@@ -242,19 +199,15 @@ header {
     width: 100%;
   }
 
-  .contact-links {
-    display: inline-block;
-    padding-top: 100px;
+  .portfolio img {
+    float: right;
+    max-width: 500px;
   }
 }
 
 @media only screen and (min-width: 1250px) {
   header {
     padding: 2em 2em 2em 10em;
-  }
-
-  .social-header {
-    padding: 2em 10em 2em 0;
   }
 
   section {
@@ -264,20 +217,11 @@ header {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
-
-  .contact-links {
-    display: inline-block;
-    padding-top: 10px;
-  }
 }
 
 @media only screen and (min-width: 1550px) {
   header {
     padding: 2em 2em 2em 20em;
-  }
-
-  .social-header {
-    padding: 2em 20em 2em 0;
   }
 
   section {
@@ -286,10 +230,5 @@ header {
 
   .hero .content {
     padding: 9em 20em 6em 20em;
-  }
-
-  .contact-links {
-    display: inline-block;
-    padding-top: 70px;
   }
 }
