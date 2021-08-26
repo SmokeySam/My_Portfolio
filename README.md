@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is my personal website. I made it to show my portfolio of projects I have built.
+This is my personal portfolio. I made it to show my projects I have built.
 
 # UX & UI
 
