@@ -26,9 +26,13 @@ This is my personal portfolio. I made it to show my projects I have built.
 
 - As a developer, I would like to see this other developers work.
 
+## Structure
+
+This project was done over one long webpage. The main purpose of this site is to show my projects so I stuck to that and didnt want to take away from the main purpose.
+
 ## Features
 
-- The main purpose of this site is to show my projects. I choose to have one long webpage with a portfolio section for my projects along with some of my other socail links if someone would like to contact me.
+- It has a portfolio section for my projects along with some of my other socail links if someone would like to contact me.
 
 - Each of my profects have a title of the project, a sub-title explaining what the porject is and also a descrition of the project. If clicked on the name of the project or the image you will be bought to the webpage.
 
@@ -54,7 +58,7 @@ I have used only one icon for this webpage. It is elocated in the hero image so 
 
 # Technolgies Used
 
-- Here are a list of all the languages and technolgies I've used in this project.
+Here are a list of all the languages and technolgies I've used in this project.
 
 ## Languages
 
