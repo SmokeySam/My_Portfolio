@@ -40,6 +40,8 @@ This project was done over one long webpage. The main purpose of this site is to
 
 ## Colours
 
+- The colours used in the project were blue and white. Three different shades of blue were used along with white.
+
 ## Fonts
 
 The font used in this project is "Poppins".
