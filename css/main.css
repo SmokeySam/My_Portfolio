@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
-/*Body*/
+
 body {
   height: 100vh;
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 ul {
@@ -25,7 +25,6 @@ section {
   text-align: center;
 }
 
-/*Navbar*/
 .nav-container {
   background: #0000a1;
 }
@@ -39,8 +38,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 2em;
 }
 
@@ -64,12 +63,10 @@ header ul a {
   padding: 0 1em;
 }
 
-/*Hiding hero image from mobile and tablet views*/
 .hero-design {
   display: none;
 }
 
-/*Hero Introduction & Title*/
 .hero {
   background: #2626af;
   color: #b9edf8;
@@ -84,7 +81,6 @@ section {
   text-align: center;
 }
 
-/*Portfolio*/
 .portfolio {
   position: relative;
 }
@@ -118,7 +114,6 @@ section {
   margin-bottom: 2em;
 }
 
-/*Media Queries*/
 @media only screen and (min-width: 800px) {
   .portfolio {
     text-align: left;
@@ -128,7 +123,7 @@ section {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 40% auto;
-        grid-template-columns: 40% auto;
+    grid-template-columns: 40% auto;
   }
   .left {
     display: -ms-grid;
@@ -152,7 +147,7 @@ section {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 66% auto;
-        grid-template-columns: 66% auto;
+    grid-template-columns: 66% auto;
     background: unset;
   }
   header {
@@ -172,8 +167,8 @@ section {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     width: 7em;
     float: right;
   }
@@ -184,7 +179,7 @@ section {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 66% auto;
-        grid-template-columns: 66% auto;
+    grid-template-columns: 66% auto;
     background: unset;
     padding: 0;
   }

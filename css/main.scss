@@ -1,234 +1,276 @@
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
-/*Body*/
+/* Body */
 body {
-  height: 100vh;
-  margin: 0;
-  font-family: 'Poppins';
+  height: 100vh; /* Height */
+  margin: 0; /* Margin */
+  font-family: 'Poppins'; /* Font */
 }
 
+/* Navbar unordered list */
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  list-style-type: none; /* No list style */
+  margin: 0; /* Margin */
+  padding: 0; /* Padding */
 }
 
+/* Links */
 a {
-  text-decoration: none;
+  text-decoration: none;  /* No text decoration on links */
 }
 
+/* Images */
 img {
-  width: 100%;
+  width: 100%; /* Width of images */
 }
 
+/* Section containers */ 
 section {
-  padding: 4em 2em;
-  text-align: center;
+  padding: 4em 2em; /* Top & bottom, left and right padding */
+  text-align: center; /* Centering text */
 }
 
-/*Navbar*/
+/* Navbar */
 .nav-container {
-  background: #0000a1;
+  background: #0000a1; /* Colour of navbar */
 
+  /* Text colour of links in navbar */
   a {
-    color: #b9edf8;
+    color: #b9edf8; /* Text colour */
   }
 }
 
+/* Header */
 header {
-  display: flex;
-  justify-content: space-between;
-  padding: 2em;
-
+  display: flex; /* Defines flec container */
+  justify-content: space-between; /* Adds space between contents */
+  padding: 2em; /* Padding */
+  
+  /* Logo */
   .logo {
-    color: #b9edf8;
-    font-weight: bold;
+    color: #b9edf8; /* Text colour */
+    font-weight: bold; /* Makes font bolder */
   }
 
+  /* Navbar */
   nav {
-    float: right;
+    float: right; /* Float items right */
   }
 
+  /* Navbar items */
   ul {
-    display: flex;
+    display: flex; /* Displays list horizontal */
 
+    /* Navbar links */
     a {
-      display: block;
-      padding: 0 1em;
+      display: block; /* Display within the along horizontal together */
+      padding: 0 1em; /* Top and bottom, left and right padding*/
     }
   }
 }
 
-/*Hiding hero image from mobile and tablet views*/
+/* Hiding hero image from mobile and tablet views */
 .hero-design {
-  display: none;
+  display: none; /* Not allowing to display*/
 }
 
-/*Hero Introduction & Title*/
+/* Hero introduction & title */
 .hero {
-  background: #2626af;
-  color: #b9edf8;
-  display: grid;
-  text-align: center;
-  padding: 4em;
+  background: #2626af; /* Background colour */
+  color: #b9edf8; /* Text colour */
+  display: grid; /* Defines elements as a grid container */
+  text-align: center; /* Centering text */
+  padding: 4em; /* Padding */
 }
 
+/* Sections */
 section {
-  padding: 4em 2em;
-  text-align: center;
+  padding: 4em 2em; /* Top and bottom, right and left padding */
+  text-align: center; /* Centering text */
 }
 
-/*Portfolio*/
+/* Portfolio */
 .portfolio {
-  position: relative;
+  position: relative; /* Positioned relative to its normal position */
 }
 
+/* Project subtitle */
 .project-subtitle {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: black;
-  letter-spacing: 0.2em;
-  font-size: 0.85em;
+  text-transform: uppercase; /* Changes text to uppercase */
+  font-weight: bold; /* Makes text bold */
+  color: black; /* Text colour */
+  letter-spacing: 0.2em; /* Spacing between letters */
+  font-size: 0.85em; /* Size of font */
 }
 
+/* Project title */
 .project-title {
-  color: #0000a1;
-  font-weight: bold;
-  font-size: 1.3em;
-  margin-top: -0.4em;
-  display: block;
+  color: #0000a1; /* Text colour */
+  font-weight: bold; /* Makes text bold */
+  font-size: 1.3em; /* Size of font */
+  margin-top: -0.4em; /* Margin top */
+  display: block; /* Display on its own line */
 }
 
+/* Project description */
 .project-desc {
-  color: black;
-  margin-bottom: 3em;
-  font-size: 0.85em;
-  line-height: 1.8em;
-  font-weight: 500;
+  color: black; /* Text colour */
+  margin-bottom: 3em; /* Margin bottom */
+  font-size: 0.85em; /* Size of font */
+  line-height: 1.8em; /* Height of line box */
+  font-weight: 500; /* Boldness of font */
 }
 
+/* Project images with link */
 .portfolio-container a img {
-  border-radius: 1em;
-  margin-bottom: 2em;
+  border-radius: 1em; /* Adding curves to edges of picture */
+  margin-bottom: 2em; /* Bottom margin */
 }
 
-/*Media Queries*/
+/* Media Queries */
+/* Screen size is 800px or more */
 @media only screen and (min-width: 800px) {
+  /* Portfolio */
   .portfolio {
-    text-align: left;
-    padding-top: 7em;
+    text-align: left; /* Aligns text to the left */
+    padding-top: 7em; /* Padding top */
   }
 
+  /* Portfolio container */
   .portfolio-container {
-    display: grid;
-    grid-template-columns: 40% auto;
+    display: grid; /* Defines the element as a grid container */
+    grid-template-columns: 40% auto; /* Specifies the number (and the widths) of columns in a grid layout */
   }
 
+  /* Left side of project container*/
   .left {
-    display: grid;
-    place-content: center;
+    display: grid; /* Defines the element as a grid container */
+    place-content: center; /* Align-content and justify-content */
   }
 
+  /* Right side of project container*/
   .right {
-    margin-left: 2em;
-    margin-top: 1em;
+    margin-left: 2em; /* Margin left*/
+    margin-top: 1em; /* Margin top*/
   }
 
+  /* Portfolio images */
   .portfolio-container img {
-    margin-left: 2em;
+    margin-left: 2em; /* Margin left*/
   }
 }
 
+/* Media quieries */
+/* Screen size is 1050px or more */
 @media only screen and (min-width: 1050px) {
+  /* Hero*/
   .hero {
-    height: 90vh;
+    height: 90vh; /* Height */
   }
 
+  /* Navbar container */
   .nav-container {
-    display: grid;
-    grid-template-columns: 66% auto;
-    background: unset;
+    display: grid; /* Defines the element as a grid container */
+    grid-template-columns: 66% auto; /* Specifies the number (and the widths) of columns in a grid layout */
+    background: unset; /* Inherited from parent */
   }
 
+  /* Header */
   header {
-    background: #0000a1;
+    background: #0000a1; /* Background colour */
+    padding: 2em 2em 2em 4em; /* Top, right, bottom and left padding */
   }
 
-  header {
-    padding: 2em 2em 2em 4em;
-  }
-
+  /* Section containers */
   section {
-    padding: 4em;
+    padding: 4em; /* Padding */
   }
 
+    /* Navbar unordered list */
     ul {
-      display: flex;
-      justify-content: space-between;
-      width: 7em;
-      float: right;
+      display: flex; /* Defines a flex container */
+      justify-content: space-between; /* Align the flex items at the center of the container */
+      width: 7em; /* Width */
+      float: right; /* Float links to the right */
 
+      /* Images */
       img {
-        width: 20px;
+        width: 20px; /* Width */
       }
     }
   }
 
+  /*Hero container */
   .hero {
-    display: grid;
-    grid-template-columns: 66% auto;
-    background: unset;
-    padding: 0;
+    display: grid; /* Defines the element as a grid container */
+    grid-template-columns: 66% auto; /* Specifies the number (and the widths) of columns in a grid layout */
+    background: unset; /* Inherited from parent */
+    padding: 0; /* Padding */
 
+    /* Content */
     .content {
-      background: #2626af;
-      padding: 6em 8em 6em 4em;
-      text-align: left;
+      background: #2626af; /* Background colour */
+      padding: 6em 8em 6em 4em; /* Top, right, bottom and left padding */
+      text-align: left; /* Aligns text to the left */
 
+      /*H1*/
       h1 {
-        font-size: 3em;
-        line-height: 1.2em;
+        font-size: 3em; /* Font size */
+        line-height: 1.2em; /* Sets line height */
       }
     }
   }
 
+  /* Hero desgin */
   .hero-design {
-    display: unset;
-    margin-left: -50%;
-    margin-top: 15%;
-    width: 100%;
+    display: unset; /* Inherited from parent */
+    margin-left: -50%; /* Margin left */
+    margin-top: 15%; /* Margin top */
+    width: 100%; /* Fill width of container */
   }
 
+  /* Portfolio images */
   .portfolio img {
-    float: right;
-    max-width: 500px;
-  }
+    float: right; /* Position images right of container */
+    max-width: 500px; /* Max width of container */
+  }  
 }
 
+/* Media queries */
+/* Screen size is 1250px or more */
 @media only screen and (min-width: 1250px) {
+  /* Header */
   header {
-    padding: 2em 2em 2em 10em;
+    padding: 2em 2em 2em 10em; /* Top, right, bottom and left padding */
   }
 
+  /* Section contianers */
   section {
-    padding: 10em 10em 4em 10em;
+    padding: 10em 10em 4em 10em; /* Top, right, bottom and left padding */
   }
 
+  /* Content inside hero */
   .hero .content {
-    padding: 6em 8em 6em 10em;
+    padding: 6em 8em 6em 10em; /* Top, right, bottom and left padding */
   }
 }
 
+/* Media queries */
+/* Screen size is 1550px or more */
 @media only screen and (min-width: 1550px) {
+  /* Header */
   header {
-    padding: 2em 2em 2em 20em;
+    padding: 2em 2em 2em 20em; /* Top, right, bottom and left padding */
   }
 
+  /* Section contianers */
   section {
-    padding: 6em 20em 4em 20em;
+    padding: 6em 20em 4em 20em; /* Top, right, bottom and left padding */
   }
 
+  /* Content inside hero */
   .hero .content {
-    padding: 9em 20em 6em 20em;
+    padding: 9em 20em 6em 20em; /* Top, right, bottom and left padding */
   }
 }
