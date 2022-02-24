@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-- This is my personal portfolio. I made it to show projects that I have built.
+This is my personal portfolio. I made it to show projects that I have built.
 
 ## User Stories
 
@@ -69,6 +69,8 @@
 - All links have been tested to make sure the user is taken to the right page/website.
 
 - Media queries were added for the webpage to be responsive across all devices.
+
+- I tested my code through W3C Markup Validator and W3C CSS Validator.
 
 ## Credits
 
