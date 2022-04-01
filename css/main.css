@@ -112,6 +112,7 @@ section {
 .portfolio-container a img {
   border-radius: 1em;
   margin-bottom: 2em;
+  border: 1px solid #000000;
 }
 
 @media only screen and (min-width: 800px) {
@@ -124,6 +125,7 @@ section {
     display: grid;
     -ms-grid-columns: 40% auto;
     grid-template-columns: 40% auto;
+    padding: 40px;
   }
   .left {
     display: -ms-grid;
@@ -133,6 +135,7 @@ section {
   .right {
     margin-left: 2em;
     margin-top: 1em;
+    padding-bottom: 40px;
   }
   .portfolio-container img {
     margin-left: 2em;
